@@ -4,7 +4,7 @@ console.log(btnTranslate);
 console.log(txtInput);
 function clickHandler()
 {
-    console.log('button clicked');
-    console.log(txtInput.value);
+    outputDiv.innerText = "hajahaoige"+txtInput.value;
 }
-btnTranslate.addEventListener("click",clickHandler);
+btnTranslate.addEventListener("click",
+clickHandler);
