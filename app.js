@@ -1,7 +1,7 @@
 var btnTranslate=document.querySelector("#button-id");
 var txtInput =document.querySelector("#txt-input");
 var outputDiv= document.querySelector("#output")
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverURL = "https://api.funtranslations.com/translate/navi.json"
 function getTranslationURL(text)
 {
     return serverURL + "?" + "text=" + text;
